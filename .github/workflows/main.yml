@@ -6,7 +6,7 @@ name: Issue Closer
 # events but only for the master branch
 on:
   issues:
-    types: [ opened ]
+    types: [opened]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,4 +21,4 @@ jobs:
         uses: peter-evans/close-issue@v1.0.1
         with:
           comment: |
-           **Use [Discuss Issues](https://discuss.dgraph.io/c/issues/35/ristretto/40) for reporting issues about this repository.**
+            **Use [Discuss Issues](https://discuss.dgraph.io/c/issues/35/ristretto/40) for reporting issues about this repository.**
